@@ -12,7 +12,7 @@ HX711 scale(DOUT, CLK);
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-float calibration_factor = -109525; //-106600 worked for my 40Kg max scale setup 
+float calibration_factor = -109525; 
 
 void connectToWiFi(){
   Serial.print("Connecting to WiFi");
